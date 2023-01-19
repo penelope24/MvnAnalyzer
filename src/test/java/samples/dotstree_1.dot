@@ -1,0 +1,18 @@
+digraph tree_1{
+    //tree nodes
+    v1    [label="spring-security-oauth-parent"];
+    v2    [label="spring-security-oauth-tests"];
+    v3    [label="spring-security-oauth"];
+    v4    [label="spring-security-oauth-samples"];
+    v5    [label="sparklr"];
+    v6    [label="tonr"];
+    v7    [label="spring-security-oauth2"];
+    //tree edges
+    v1 -> v2  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v3  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v4  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v7  [arrowhead=empty, color=gray, style=dashed];
+    v4 -> v5  [arrowhead=empty, color=gray, style=dashed];
+    v4 -> v6  [arrowhead=empty, color=gray, style=dashed];
+    // end-of-graph
+}

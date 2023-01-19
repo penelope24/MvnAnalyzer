@@ -1,0 +1,18 @@
+digraph tree_3{
+    //tree nodes
+    v1    [label="spring-oauth2-tests-parent"];
+    v2    [label="spring-oauth2-tests-custom-authentication"];
+    v3    [label="spring-oauth2-tests-custom-grant"];
+    v4    [label="spring-oauth2-tests-multi"];
+    v5    [label="spring-oauth2-tests-jpa"];
+    v6    [label="spring-oauth2-tests-jaxb"];
+    v7    [label="spring-oauth2-tests-resource"];
+    //tree edges
+    v1 -> v2  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v3  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v4  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v5  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v6  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v7  [arrowhead=empty, color=gray, style=dashed];
+    // end-of-graph
+}

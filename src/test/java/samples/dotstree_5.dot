@@ -1,0 +1,6 @@
+digraph tree_5{
+    //tree nodes
+    v1    [label="spring-oauth2-tests-ssl"];
+    //tree edges
+    // end-of-graph
+}

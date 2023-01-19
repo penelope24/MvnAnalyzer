@@ -1,0 +1,6 @@
+digraph tree_4{
+    //tree nodes
+    v1    [label="tonr2"];
+    //tree edges
+    // end-of-graph
+}

@@ -1,0 +1,38 @@
+digraph tree_2{
+    //tree nodes
+    v1    [label="spring-oauth2-tests-xml-parent"];
+    v2    [label="spring-oauth2-tests-jdbc"];
+    v3    [label="spring-oauth2-tests-xml-jdbc"];
+    v4    [label="spring-oauth2-tests-xml-approval"];
+    v5    [label="spring-oauth2-tests-client"];
+    v6    [label="spring-oauth2-tests-xml-jwt"];
+    v7    [label="spring-oauth2-tests-xml-vanilla"];
+    v8    [label="spring-oauth2-tests-xml-form"];
+    v9    [label="spring-oauth2-tests-xml-common"];
+    v10    [label="spring-oauth2-tests-mappings"];
+    v11    [label="spring-oauth2-tests-jwt"];
+    v12    [label="spring-oauth2-tests-form"];
+    v13    [label="spring-oauth2-tests-vanilla"];
+    v14    [label="spring-oauth2-tests-xml-client"];
+    v15    [label="spring-oauth2-tests-approval"];
+    v16    [label="spring-oauth2-tests-xml-mappings"];
+    v17    [label="spring-oauth2-tests-common"];
+    //tree edges
+    v1 -> v2  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v3  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v4  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v5  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v6  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v7  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v8  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v9  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v10  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v11  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v12  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v13  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v14  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v15  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v16  [arrowhead=empty, color=gray, style=dashed];
+    v1 -> v17  [arrowhead=empty, color=gray, style=dashed];
+    // end-of-graph
+}

@@ -1,0 +1,6 @@
+digraph tree_9{
+    //tree nodes
+    v1    [label="spring-oauth2-tests-parent"];
+    //tree edges
+    // end-of-graph
+}
